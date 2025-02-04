@@ -27,12 +27,12 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white h-[17vh]">
+    <nav className="bg-white h-[17vh] py-8">
       <div className="p-4 flex justify-around items-center body-container">
         <div className="text-[2rem] hover:cursor-default">Victor Ugochukwu</div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex gap-8 text-[1.5rem]">
+        <div className="hidden lg:flex gap-8 text-[1.5rem]">
           {Links.map((link) => (
             <Link
               key={link.href}
@@ -45,7 +45,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Navigation */}
-        <div className="relative md:hidden">
+        <div className="relative lg:hidden">
           {menuOpen ? (
             <X
               onClick={() => setMenuOpen(!menuOpen)}
