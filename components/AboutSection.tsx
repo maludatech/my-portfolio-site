@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { FaBriefcase, FaGraduationCap, FaArrowDown } from "react-icons/fa";
+import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 
 export function AboutSection() {
   return (
     <section
       id="about"
-      className="p-10 relative body-container flex flex-col items-center justify-center"
+      className="p-10 body-container flex flex-col items-center justify-center"
     >
       <p className="text-lg text-center">Get To Know More</p>
       <h1 className="text-4xl font-bold text-center mb-8">About Me</h1>
@@ -62,9 +62,6 @@ export function AboutSection() {
           </p>
         </div>
       </div>
-      <a href="#experience" className="absolute right-[-2rem] bottom-10">
-        <FaArrowDown size={32} />
-      </a>
     </section>
   );
 }
