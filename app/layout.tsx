@@ -1,5 +1,5 @@
-import { ThemeProvider } from "next-themes";
 import { Poppins } from "next/font/google";
+import { ClientThemeProvider } from "@/components/ClientThemeProvider";
 import "./globals.css";
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from "@/lib/constants";
 import { Navbar } from "@/components/Navbar";
@@ -25,10 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={poppins.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ClientThemeProvider>
           <Navbar />
           {children}
-        </ThemeProvider>
+        </ClientThemeProvider>
       </body>
     </html>
   );
