@@ -14,7 +14,7 @@ const navLinks: NavLink[] = [
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between items-center h-[17vh] px-10 body-container z-10">
+    <nav className="flex justify-between items-center h-[17vh] px-10 body-container z-20">
       <div className="text-2xl font-bold">Victor Ugochukwu</div>
       <div className="hidden md:flex gap-8">
         <ThemeToggle />

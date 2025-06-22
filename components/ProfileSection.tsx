@@ -8,7 +8,7 @@ export function ProfileSection() {
   return (
     <section
       id="profile"
-      className="flex flex-col md:flex-row gap-10 items-center justify-center  h-[80vh] sm:h-[70vh] px-10"
+      className="flex flex-col md:flex-row gap-10 items-center justify-center px-10 py-16"
     >
       <div className="relative h-[400px] w-[400px]">
         <Image
