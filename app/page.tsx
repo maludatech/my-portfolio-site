@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/Navbar";
 import { ProfileSection } from "@/components/ProfileSection";
 import { AboutSection } from "@/components/AboutSection";
 import { ExperienceSection } from "@/components/ExperienceSection";
