@@ -1,9 +1,9 @@
-import { ProfileSection } from "@/components/ProfileSection";
-import { AboutSection } from "@/components/AboutSection";
-import { ExperienceSection } from "@/components/ExperienceSection";
-import { ProjectsSection } from "@/components/ProjectsSection";
-import { ContactSection } from "@/components/ContactSection";
-import { Footer } from "@/components/Footer";
+import { ProfileSection } from "@/components/shared/ProfileSection";
+import { AboutSection } from "@/components/shared/AboutSection";
+import { ExperienceSection } from "@/components/shared/ExperienceSection";
+import { ProjectsSection } from "@/components/shared/ProjectsSection";
+import { ContactSection } from "@/components/shared/ContactSection";
+import { Footer } from "@/components/shared/Footer";
 
 export default function Home() {
   return (

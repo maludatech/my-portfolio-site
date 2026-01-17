@@ -1,8 +1,8 @@
 import { Poppins } from "next/font/google";
-import { ClientThemeProvider } from "@/components/ClientThemeProvider";
-import "./globals.css";
+import { Navbar } from "@/components/shared/Navbar";
+import { ClientThemeProvider } from "@/components/providers/ClientThemeProvider";
 import { APP_DESCRIPTION, APP_NAME, APP_SLOGAN } from "@/lib/constants";
-import { Navbar } from "@/components/Navbar";
+import "./globals.css";
 
 export const metadata = {
   title: {
